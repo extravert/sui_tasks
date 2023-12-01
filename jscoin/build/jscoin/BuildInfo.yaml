@@ -1,0 +1,27 @@
+---
+compiled_package_info:
+  package_name: jscoin
+  address_alias_instantiation:
+    jscoin: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 6A0C26164228ADF3375A9BC057F40DB9231DBF6CD3BDED4628862DED56484F1B
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: true
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+dependencies:
+  - MoveStdlib
+  - Sui
